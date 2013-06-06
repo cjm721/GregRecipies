@@ -1,0 +1,148 @@
+recipies:
+    powerHead: true
+    powerTorso: true
+    powerLegs: true
+    powerFeet: true
+    powerTool: true
+    tinkerTable: true
+    servoMotor: true
+    gliderWing: true
+    fieldEmitter: true
+    lvCapacitor: true
+    mvCapactior: true
+    hvCapacitor: true
+    basicPlating: true
+    advancedPlating: true
+    controlCircuit: true
+    solarPanel: true
+    ionThruster: true
+materials:
+    aluminium: 
+        id: 21256
+        damage: 18
+    dataStorageCircuit: 
+        id: 21259
+        damage: 3
+    machineParts:
+        id: 21259
+        damage: 22
+    computerMonitor:
+        id: 21259
+        damage: 4
+    steelMachineHull:
+        id: 21259
+        damage: 35
+    wiring:
+        id: 25031
+        damage: 0
+    refinedIron:
+        id: 30249
+        damage: 0
+    steelRC:
+        id: 7780
+        damage: 0
+    steelGT:
+        id: 21256
+        damage: 26
+    brass:
+        id: 21256
+        damage: 25
+    advancedCircuit:
+        id: 30190
+        damage: 0
+    solenoid:
+        id: 25031
+        damage: 1
+    iridiumPlate:
+        id: 30147
+        damage: 0
+    superconductor:
+        id: 21259
+        damage: 2
+    energyFlowCircuit:
+        id: 21259
+        damage: 0
+    energyCrystal:
+        id: 30241
+        damage: 27
+    titanium:
+        id: 21256
+        damage: 19
+    lapotronCrystal:
+        id: 30240
+        damage: 27
+    chrome:
+        id: 21256
+        damage: 20
+    lapotronicEnergyOrb:
+        id: 21293
+        damage: 1
+    electronicCircuit:
+        id: 30191
+        damage: 0
+    electrumIngot:
+        id: 21256
+        damage: 21
+    reinforcedGlass:
+        id: 601
+        damage: 0
+    forceFieldEmitter:
+        id: 25031
+        damage: 11
+    lvCapacitor:
+        id: 25031
+        damage: 5
+    mvCapacitor:
+        id: 25031
+        damage: 6
+    hvCapacitor:
+        id: 25031
+        damage: 7
+    iridiumNeutronReflector:
+        id: 21296
+        damage: 0
+    magnaliumPlate:
+        id: 21256
+        damage: 13
+    carbonPlate:
+        id: 30150
+        damage: 0
+    powerArmorHead:
+        id: 25026
+        damage: 0
+    powerArmorTorso:
+        id: 25027
+        damage: 0
+    powerArmorLegs:
+        id: 25028
+        damage: 0
+    powerArmorFeet:
+        id: 25029
+        damage: 0
+    powerTool:
+        id: 25030
+        damage: 0
+    powerArmorTinkerTable:
+        id: 727
+        damage: 0
+    servoMotor:
+        id: 25031
+        damage: 2
+    gliderWing:
+        id: 25031
+        damage: 3
+    basicPlating:
+        id: 25031
+        damage: 9
+    advancedPlating:
+        id: 25031
+        damage: 10
+    controlCircuit:
+        id: 25031
+        damage: 14
+    solarPanel:
+        id: 25031
+        damage: 17
+    ionThruster:
+        id: 25031 
+        damage: 4
