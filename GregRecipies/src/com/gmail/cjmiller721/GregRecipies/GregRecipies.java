@@ -126,7 +126,7 @@ public class GregRecipies extends JavaPlugin{
 		}
 		
 		//Servo Motor
-		if(getConfig().getBoolean(path + "serverMotor")){
+		if(getConfig().getBoolean(path + "servoMotor")){
 			ShapedRecipe item = new ShapedRecipe(getMaterial("servoMotor").toItemStack(1));
 			item.shape("SBS","COC","SBS");
 
