@@ -9,7 +9,7 @@ recipies:
     gliderWing: true
     fieldEmitter: true
     lvCapacitor: true
-    mvCapactior: true
+    mvCapacitor: true
     hvCapacitor: true
     basicPlating: true
     advancedPlating: true

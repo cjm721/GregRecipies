@@ -5,11 +5,11 @@ recipies:
     powerFeet: true
     powerTool: true
     tinkerTable: true
-    serverMotor: true
+    servoMotor: true
     gliderWing: true
     fieldEmitter: true
     lvCapacitor: true
-    mvCapactior: true
+    mvCapacitor: true
     hvCapacitor: true
     basicPlating: true
     advancedPlating: true
