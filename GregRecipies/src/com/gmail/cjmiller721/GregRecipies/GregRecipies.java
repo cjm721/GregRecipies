@@ -126,7 +126,7 @@ public class GregRecipies extends JavaPlugin{
 		}
 		
 		//Servo Motor
-		if(getConfig().getBoolean(path + "serverMotor")){
+		if(getConfig().getBoolean(path + "servoMotor")){
 			ShapedRecipe item = new ShapedRecipe(getMaterial("servoMotor").toItemStack(1));
 			item.shape("SBS","COC","SBS");
 
@@ -140,12 +140,12 @@ public class GregRecipies extends JavaPlugin{
 			
 			//RT Steel
 			getServer().addRecipe(item);
-			logger.info("Added ");
+			logger.info("Added Server Motor (RT)");
 			
 			//GT Steel
 			item.setIngredient('S', getMaterial("steelGT"));
 			getServer().addRecipe(item);
-			logger.info("Added Server Motor");
+			logger.info("Added Server Motor (GregTech)");
 		}
 		
 		//Glider Wing
@@ -176,7 +176,6 @@ public class GregRecipies extends JavaPlugin{
 			
 			item.setIngredient('U', getMaterial("superconductor"));
 			
-			logger.info(""+getMaterial("energyFlowCircuit"));
 			item.setIngredient('E', getMaterial("energyFlowCircuit"));
 					
 			getServer().addRecipe(item);
@@ -314,7 +313,6 @@ public class GregRecipies extends JavaPlugin{
 		
 		int id = getConfig().getInt(path + m + ".id");
 		int damage = getConfig().getInt(path + m + ".damage");
-		
 		
 		return new MaterialData(id, (byte)damage);
 	}
