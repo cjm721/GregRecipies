@@ -183,8 +183,8 @@ public class GregRecipies extends JavaPlugin{
 		}
 		
 		//LV Capacitor
-		if(getConfig().getBoolean(path + "lvCapacitor")){
-			ShapedRecipe item = new ShapedRecipe(getMaterial("lvCapacitor").toItemStack(1));
+		if(getConfig().getBoolean(path + "lvcapacitor")){
+			ShapedRecipe item = new ShapedRecipe(getMaterial("lvcapacitor").toItemStack(1));
 			item.shape("IWI","ICI","ICI");
 
 			item.setIngredient('I', getMaterial("refinedIron"));
@@ -198,8 +198,8 @@ public class GregRecipies extends JavaPlugin{
 		}
 		
 		//MV Capacitor
-		if(getConfig().getBoolean(path + "mvCapacitor")){
-			ShapedRecipe item = new ShapedRecipe(getMaterial("mvCapacitor").toItemStack(1));
+		if(getConfig().getBoolean(path + "mvcapacitor")){
+			ShapedRecipe item = new ShapedRecipe(getMaterial("mvcapacitor").toItemStack(1));
 			item.shape("IWI","ICI","ICI");
 
 			item.setIngredient('I', getMaterial("titanium"));
@@ -213,8 +213,8 @@ public class GregRecipies extends JavaPlugin{
 		}
 		
 		//HV Capacitor
-		if(getConfig().getBoolean(path + "hvCapacitor")){
-			ShapedRecipe item = new ShapedRecipe(getMaterial("hvCapacitor").toItemStack(1));
+		if(getConfig().getBoolean(path + "hvcapacitor")){
+			ShapedRecipe item = new ShapedRecipe(getMaterial("hvcapacitor").toItemStack(1));
 			item.shape("IWI","ICI","ICI");
 
 			item.setIngredient('I', getMaterial("chrome"));
