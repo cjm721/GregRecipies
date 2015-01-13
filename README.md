@@ -1,7 +1,7 @@
 GregRecipies
 ============
 
-Fixes the GregTech Recipes for Modular Power Suits for FTB Ultimate v1.1.2
+Fixes the GregTech Recipes for Modular Power Suits for FTB Ultimate v1.1.2 on the server side. 
 
 
 Compiled Jar can be downloaded from Google Docs at: 
